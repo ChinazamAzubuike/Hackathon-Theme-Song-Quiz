@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's Your Theme Song?</title>
+    
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            font-family: 'Trebuchet MS', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- startup page -->
+    <div id="startup">
+        <h1>Find Out Your Theme Song!</h1>
+        <p>Answer a few questions and discover which song best represents your personality!</p>
+        <button id="start-btn">Start</button>
+    </div>
+
+    <!-- quiz stuff -->
+    <div class="quiz-container" id="quiz-container" style="display: none;">
+        <h1>Answer the Questions Below:</h1>
+        <div id="quiz">
+            <p id="question"></p>
+            <div id="answer"></div>
+        </div>
+    </div>
+
+    <!-- results section -->
+    <div id="result-container" style="display: none;">
+        <h2 id="theme-title"></h2>
+        <p id="theme-description"></p>
+        <div id="spotify-song"></div>
+    </div>
+
+  
+    <script type="module" src="script.js"></script>
+
+</body>
+</html>
