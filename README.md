@@ -30,6 +30,5 @@ const clientSecret = "YOUR_SPOTIFY_CLIENT_SECRET";*
 The app will fetch songs dynamically from Spotify.
 
 **Future Improvements**
- Add more questions and genres for better personality accuracy
- Allow users to share their results
- Improve animations and UI styling
+Add more questions and genres for better personality accuracy
+Allow users to share their results Improve animations and UI styling
