@@ -159,7 +159,7 @@ const questions = [
     {
         question: "What's your idea of fun/free time?",
         answers: {
-            "Activities that gets me on my feet (e.g., working out, hiking, etc": ["energetic"],
+            "Activities that gets me on my feet (e.g., working out, hiking, etc"): ["energetic"],
             "Something fun but that doesn't make me out of breath (e.g., amusement park, art, etc.": ["normal"],
             "Gaming/Listening to music.": ["lazy"],
             "Studying/Reading.": ["normal"],
